@@ -1,0 +1,231 @@
+/*---------------------------------------------------
+    GENERIC STYLES
+---------------------------------------------------*/ 
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.5px;
+}
+
+.h1_logo {
+    padding: 3px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background:black;
+    color: white; 
+    margin-bottom: 0px;
+}
+
+.p1_logo {
+  padding: 6px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background:black;
+  color: rgb(176, 246, 63); 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 6px;
+}
+
+/*---------------------------------------------------
+    MENU SECTION
+---------------------------------------------------*/
+.navbar {
+  width: 100%;
+  background-color: rgb(176, 246, 63);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 6px;
+  font-family:Arial;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  width:24.2%; /* Four links of equal widths */
+  text-align:center;
+}
+
+.navbar a:hover {
+  background-color: rgb(147, 219, 31);
+}
+
+/*---------------------------------------------------
+    INTRODUCTION SECTION
+---------------------------------------------------*/
+.h2_intro {
+  text-align: center;
+  font-weight: 845;
+  font-style: italic;
+  margin-top: 70px;
+}
+
+.p2_intro {
+  text-align: center;
+  margin-top:5px;
+}
+
+/*---------------------------------------------------
+    FACILITIES SECTION / PHOTO GALLERY
+---------------------------------------------------*/
+.container {
+  margin-top: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0px auto;
+  background-color: rgba(100, 65, 0, 0.168);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.photo { 
+  line-height: 0;
+  border-radius: 8px;
+  padding: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.429);
+  background-color: rgb(147, 219, 31);
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.photo-container {
+  text-align: center;
+  margin: 15px auto;
+  width: 345px;
+  height: 280px;
+}
+
+.photo-container img {
+  max: width 100%;
+  width: 340px;
+  height: 220px;
+}
+
+/*---------------------------------------------------
+    FITNESS VIDEO SECTION
+---------------------------------------------------*/
+.h2_align {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+/*---------------------------------------------------
+    MEMBERSHIP SECTION
+---------------------------------------------------*/
+.membership {
+  margin-top: 70px;
+}
+
+/*---------------------------------------------------
+    CONTACT SECTION
+---------------------------------------------------*/
+.submit {
+  margin-top: 70px;
+}
+
+.contact_us p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact_us form {
+  font-size: 15px;
+  outline: none;
+  font-weight: 600;
+  padding: 12px 12px; 
+  width: 70%;
+  border: 1px solid #808080;
+  margin: 2% auto;
+  border-radius: 7px;
+  background: rgb(243, 242, 242);
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact_us input[type="text"] {
+  font-size: 15px;
+
+  font-weight: 600;
+  color: #000000;
+  padding: 2% 1% 2% 7%;
+  width: 90%;
+  border-top: 1px solid #7d7d7d;
+  border-right: 2px solid #666666;
+  border-bottom: 2px solid #616161;
+  border-left: 1px solid #8d8d8d;
+  margin: 10px 1em;
+  border-radius: 7px;
+  background: rgb(147, 219, 31);
+  box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+  font-family: 'Raleway', sans-serif;
+}
+
+.terms {
+  margin: 30px 1px 0 0;
+  margin-top: 7%;
+  padding-left: 52px;
+  font-size: 14px;
+  line-height: 5px;
+  color:#000;
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  position: relative;
+  display:inline;
+  float: right;
+}
+
+.submit input[type="submit"] {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  font-weight: 900;
+  outline: none;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  margin: 0px 3%;
+  padding: 7px 0px;
+  width: 25%;
+  font-size: 18px;
+  transition: border-color 0.3s color 0.3s background-color 0.3s;
+  border-radius: 7px;
+  background-color: #888888b2;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit input[type="submit"]:hover {
+  color: #040404;
+  background-color: #7f7f7f;
+  box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);   
+
+/*---------------------------------------------------
+    LOCATION SECTION
+---------------------------------------------------*/
+.h2_loc {
+margin-top: 70px;
+}
+
+.h5_loc {
+margin-top: 50px;
+color: rgb(124, 194, 13);
+}
